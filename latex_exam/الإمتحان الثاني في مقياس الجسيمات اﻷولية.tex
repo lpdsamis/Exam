@@ -1,0 +1,163 @@
+\documentclass[a4paper,14pt]{article}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=1.7cm,headsep=5mm]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{siunitx} 
+\usepackage{fourier} % math font
+\usepackage[normalem]{ulem}  
+\usepackage{esvect}
+\usepackage{polyglossia}
+
+% desactiver message d'erreur bidi package -------------------
+\makeatletter 
+\AtBeginDocument{\bidi@isloaded[]{arabxetex}}
+\makeatother
+
+
+% languages & fonts===========================================
+\setdefaultlanguage[calendar=gregorian,numerals=maghrib]{arabic}
+\setotherlanguage{english}
+\newfontfamily\arabicfont[Script=Arabic,Scale=1.3]{Amiri}
+\newfontfamily\arabicfontsf[Script=Arabic,Scale=1.5]{Amiri}
+
+%=============================================================
+
+%\usepackage[novoc]{arabxetex}
+
+
+\def\LOGO{%
+	\begin{picture}(0,0)\unitlength=1cm
+		\put (3,-1) {\includegraphics[width=5em]{logo.png}}
+	\end{picture}
+}
+
+\begin{document}
+	\begin{center}
+		%\sffamily\bfseries
+		{ المدرسة العليا للأساتذة بشار}\LOGO\\
+		\begin{flushright}
+			قسم السنة الخامسة أساتذة التعليم الثانوي                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 2022/01/16\\
+		\end{flushright}
+		إمتحــان السداسي الأول في فيزيـــــاء الجسيمـات 
+	\end{center}
+	
+	\hrulefill\par
+	
+\subsubsection*{\uline{\sffamily{\large التمرين الأول: (8ن)}}}
+	
+	ضع كلمة  (صحيح) أو (خطأ) المناسبة أمام كل عبارة؟
+	\begin{enumerate}
+		\item الجسيمات اﻷولية هي الجسيمات التي لها تركيب داخلي 
+		(~~~~~~~)
+		\item تعتبر البروتونات جسيمات أولية
+		(~~~~~~~)
+		\item اللبتونات أحد أقسام الجسيمات اﻷولية تنضوي تحتها الميونات
+		(~~~~~~~)
+		\item حسب نظرية النموذج العياري تصنف الجسيمات إلى جيلين
+		(~~~~~~~)
+		\item الجيل اﻷول يتضمن  الكوارك الستة (u,d,c,s,t,b)
+		(~~~~~~~)
+		\item 	الجيل الثاني يتضمن الكوارك (c,s) و كذلك ميون و نترينو ميون 
+		(~~~~~~~)
+		\item    حاملات القوى هي الجسيمات اﻷولية المسؤلة عن التفاعلات اﻷساسية
+		(~~~~~~~)
+		\item الجسيمات و الجسيمات المضادة لا تختلف في الكتلة
+		(~~~~~~~)
+		\item أكتشفت الكورك الثلاثة ذات الكتل الصغيرة أولا
+		(~~~~~~~)
+		\item  تصنف الجسيمات إلى مجموعتين بحسب قيمة الدوران مغزلي
+		(~~~~~~~)
+		\item  الجسيمات التي قيمة دورانها المغزلي أنصاف الأعداد الصحيحة ( 1/2, 3/2, 5/2,… ) تسمى بـالفرميونات
+		(~~~~~~~)
+		\item تتفاعل الجسيمات مع حقل هيقز مكتسبة بذلك شحنة لونية
+		(~~~~~~~)
+		\item النموذج العياري النهائي صنف الجسيمات إلى ستة كوارك و ستة ليبتونات و ستة بوزنات 
+		(~~~~~~~)
+		\item أكبر جسيم من حيث الكتلة هو الكوارك السفلي botom
+		(~~~~~~~)
+		\item الجسيم المفقود في النموذج العياري الحالي هو ~....... 
+		\item يتم تسريع الجسيمات .......... في المصادمات الهيدرونية.
+		\item الإحداثي الثابت في الفضاء الرباعي هو .........
+		
+	\end{enumerate} 
+	
+\subsubsection*{\uline{\sffamily{\large التمرين الثاني:(12ن)}}}
+	
+\begin{itemize}
+	\item 
+	جسيم يتحرك بسرعة 0.5c كما يشاهده قائد مركبة فضائية تسير بسرعة 0.7c  بالنسبة للأرض.
+
+	
+	
+	\begin{enumerate}
+				
+		\item 
+	ماهي سرعة الجسم بالنسبة للمشاهد على اﻷرض وفقا لتحويلات غاليليو؟
+		\item
+	ماهي سرعة الجسم بالنسبة للمشاهد على اﻷرض وفقا للنسبية الخاصة؟
+				
+		\end{enumerate}	
+	\item
+	نعرف الكمية اللاتغيرية بالعلاقة التالية:\\	
+\begin{center}
+		$ (\Delta S)^{2} = (\Delta x)^{2} +(\Delta y)^{2} +(\Delta z)^{2} -c^{2}((\Delta t)^{2}) $
+\end{center}
+	
+حيث $ \Delta S $ يمثل الإحداثي الزمكاني. 
+	
+	\begin{enumerate}
+		
+		\item 
+		أوجد الزمن الصحيح أو زمن الكون 	$ \Delta\tau $ ؟
+		\item
+		أوجد المركبة الرابعة لكل من السرعة و الزخم ؟
+		\item
+		إستنتج علاقة الكتلة النسبية ؟
+	\end{enumerate}	
+\item
+كان السؤال من أين جاءت االزيادة في الكتلة ؟ اﻷثر  الكبير في علاقة الطاقة التي إشتهرى بها آينشتاين. 
+	\begin{enumerate}
+	
+	\item 
+بين كيف استنتج آينشتاين ذلك؟
+	\item
+إستنتج من ذالك علاقة دبرولي  $ p=\dfrac{h}{\lambda} $ ؟
+	
+   \end{enumerate}	
+
+\end{itemize}	
+~~~~~~	
+	\\
+	\\
+	\\
+	\\
+	\\
+	\\
+	\\
+	\\
+	\\
+	\\
+	\\
+	\\
+	\\
+	\\
+	\\
+	\\
+	\\
+	\\
+	\\
+	\\
+	\\
+	\\
+	
+	\begin{flushleft}
+		بــالتوفيــق للجميـــع\\
+		الأستاذ: د. عميري
+		
+	\end{flushleft}
+	
+\end{document}
